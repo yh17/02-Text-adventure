@@ -1,0 +1,16 @@
+{
+    "PHOTO": {      
+       "exits": {},
+       "actions": {
+          "SEE":"You see three people at the photo, like a family. The little girl in the photo is cute and generous, the woman in the upper right corner is gentle and virtuous. But you see that the face in the upper left corner is blurred, you think someone has deliberately blotted it out"
+       },
+    "points": 5
+   },
+   "FLOWER": {
+      "exits": {},
+      "actions": {
+         "SMELL":"You smell the flower in the hand, although it is withered, but still have fragrance, you feel very strange"
+      },
+      "points": 3
+    }
+ }

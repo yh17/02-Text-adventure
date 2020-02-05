@@ -1,0 +1,49 @@
+{
+	"START": {
+		"name": "A big house surrounded by graves",
+		"desc": "You wake up in front of a huge house, surrounded by graves whhich make you fell a little weird",
+		"exits": [{
+			"exit": "FRONT LOBBY",
+			"target": "THE FRONT LOBBY"
+		}, {
+			"exit": "CEMETERY",
+			"target": "THE CEMETERY"
+		}],
+        "items": []
+	}
+	,"THE FRONT LOBBY":{
+		"name": "A big and old lobby",
+		"desc": "A very large lobby with beautiful chandeliers on the ceiling and there are two stairs leading to the second floor",
+		"exits": [{
+			"exit": "START",
+			"target": "START"
+		}],
+        "items": [{
+			"item":"PHOTO"
+			,"desc":"A old photo on the floor of lobby"
+			,"take":"You pick up dusty photo and blow the dust on it"
+		}]
+
+	}
+	,"THE CEMETERY":{
+		"name": "A big and quite cemetery",
+		"desc": "A very big cemetery. You count it carefully, there are only six tombstones in this really big place",
+		"exits": [{
+			"exit": "START",
+			"target": "START"
+		},
+		{
+			"exit": "WOODEN HOUSE",
+			"target": "WOODEN HOUSE"
+		},
+		{
+			"exit": "GARDEN",
+			"target": "THE GARDEN"
+		}], 
+		"items": [{
+			"item":"FLOWER"
+			,"desc":"A bouquet of flowers,but withered"
+			,"take":"You pick a flower and put it in your pocket"
+		}]
+	}
+}
